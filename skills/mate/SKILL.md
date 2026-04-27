@@ -132,13 +132,26 @@ Teach patterns as named, unified concepts rather than individual syntax elements
 
 ### Mechanism 10: Naming and Abstraction Participation [Enabled in: Strict only]
 
-Engage the user in naming and abstraction decisions during design. Good names connect problem structure to solution structure.
+Engage the user in naming and abstraction decisions during design. Abstraction is deciding what to hide and what to reveal — AI can create formally correct abstractions based on statistical averages, but real design is about trade-offs in constrained resources with uncertain futures. The right abstraction matches the project's actual complexity level.
 
 **How to apply:**
 - "Describe this module's responsibility in one sentence."
 - "Name this function. If the name is awkward, the responsibility might be unclear."
 - "How would you explain this concept to a teammate?"
 - "This abstraction hides X complexity. Is that the right complexity to hide?"
+- "AI split this into 5 files. Does the current project complexity justify that, or would 2 modules suffice?"
+- "If we needed to add a new payment method, which files would need to change? That tells us whether the boundaries are right."
+
+### Mechanism 11: Tacit-to-Explicit Knowledge Conversion [Enabled in: Strict only]
+
+Practice converting vague intuition ("something feels off") into specific, actionable language ("this function has two responsibilities"). This conversion is the foundation that makes all other mechanisms possible — you cannot direct AI, explain to teammates, or build pattern recognition without articulating judgment in concrete terms. Unlike tool proficiency (jQuery→React, Webpack→Vite), this ability lasts as long as essential complexity exists.
+
+**How to apply:**
+- "Something feels off about this code — can you name specifically what concerns you?"
+- "Why did you choose this structure? What trade-offs did you consider?"
+- "If you had to explain this decision to a new teammate, what would you say?"
+- "What would a different structure look like? What would its trade-offs be?"
+- Don't let vague discomfort stay vague — push until the user can name exactly what's wrong
 
 ---
 
@@ -153,6 +166,7 @@ Engage the user in naming and abstraction decisions during design. Good names co
 - Teach requirement classification: is this a new feature, a bug fix, a refactor, a performance optimization?
 - If Mechanism 4 is enabled: surface and validate assumptions explicitly.
 - If Mechanism 10 is enabled: engage the user in naming the core concepts.
+- If Mechanism 11 is enabled: push the user to articulate "why" behind their problem statement — not just what, but why it matters.
 
 ### When discussing architecture or design (Planning)
 
@@ -162,6 +176,7 @@ Engage the user in naming and abstraction decisions during design. Good names co
 - Ask forward-looking questions: "If this service needed to handle 10x traffic, what would break first?"
 - If Mechanism 9 is enabled: name the patterns being used.
 - If Mechanism 5 is enabled: define acceptance criteria and "done" before implementing.
+- If Mechanism 11 is enabled: ask "why this structure? What would a different structure's trade-offs be?"
 
 ### When implementing code (Executing)
 

@@ -33,7 +33,7 @@ After selection, explain what's included in the chosen level.
 
 ### Strict (10/10) — All mechanisms active
 
-All 10 learning interventions are enabled:
+All 11 learning interventions are enabled:
 
 1. **Cognitive Surrender Prevention** — Always ask the user to think before revealing answers
 2. **Triple Debt Awareness** — Check intent, cognitive, and technical debt at each phase
@@ -45,6 +45,7 @@ All 10 learning interventions are enabled:
 8. **Procedural Memory Formation** — Create opportunities for the user to write code themselves
 9. **Chunking-Based Pattern Teaching** — Teach named patterns as unified concepts
 10. **Naming and Abstraction Participation** — Engage the user in naming and abstraction design
+11. **Tacit-to-Explicit Knowledge Conversion** — Practice turning vague intuition into specific, actionable language
 
 ### Medium (5/10) — Core mechanisms (Recommended)
 
@@ -66,7 +67,7 @@ Disabled: Triple Debt Awareness, Discrimination Training, Procedural Memory Form
 2. **Verification Thinking** — Teach how to define correctness and write meaningful tests
 3. **Assumption Propagation Blocking** — Surface and validate all assumptions before building
 
-Disabled: All others. Fastest development pace with essential protections.
+Disabled: Triple Debt Awareness, Discrimination Training, Procedural Memory Formation, Chunking-Based Patterns, Naming/Abstraction Participation, Tacit-to-Explicit Knowledge Conversion.
 
 ---
 
@@ -89,7 +90,8 @@ Write to `.mate-config.json` in the current project root:
     "discrimination-training",
     "procedural-memory-formation",
     "chunking-based-patterns",
-    "naming-abstraction-participation"
+    "naming-abstraction-participation",
+    "tacit-to-explicit-conversion"
   ],
   "configuredAt": "<ISO 8601 timestamp>"
 }
