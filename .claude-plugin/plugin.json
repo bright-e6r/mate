@@ -1,0 +1,13 @@
+{
+  "name": "mate",
+  "description": "Senior engineer mentor that teaches while building — combating cognitive debt, intent debt, and technical debt in AI-assisted development",
+  "version": "1.0.0",
+  "author": {
+    "name": "bright.e6r",
+    "url": "https://github.com/bright-e6r"
+  },
+  "homepage": "https://github.com/bright-e6r/mate",
+  "repository": "https://github.com/bright-e6r/mate",
+  "license": "MIT",
+  "keywords": ["tutor", "mentor", "learning", "cognitive-debt", "teaching", "claude-code"]
+}
