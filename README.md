@@ -34,10 +34,6 @@ git clone https://github.com/bright-e6r/mate.git
 
 # Link to your Claude Code plugins directory
 ln -s $(pwd)/mate ~/.claude/plugins/cache/mate/mate/1.0.0
-
-# Or copy the commands to your project
-cp commands/mate.md /path/to/project/.claude/commands/mate.md
-cp commands/setup.md /path/to/project/.claude/commands/setup.md
 ```
 
 ## How It Works

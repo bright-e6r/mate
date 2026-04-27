@@ -1,6 +1,6 @@
 ---
 description: Configure mate strictness level (light/medium/strict)
-allowed-tools: Read, Write, AskUserQuestion
+allowed-tools: ["Read", "Write", "AskUserQuestion"]
 ---
 
 # Mate Setup
@@ -99,4 +99,4 @@ Write to `.mate-config.json` in the current project root:
 
 ## After Writing
 
-Say: "Mate configured with `[level]` strictness (`[N]/10` mechanisms active). Run `/mate` to start your session."
+Say: "Mate configured with `[level]` strictness (`[N]/10` mechanisms active). Run `/mate:mate` to start your session."
