@@ -4,13 +4,13 @@ Claude Code custom slash commands for AI-assisted software engineering with a le
 
 ## Commands
 
-### `/tutor` — Tutor Mode
+### `/mate` — Mate Mode
 
 Activates a senior engineer mentor persona that teaches while building. Designed to combat the cognitive debt and skill debt that AI-assisted development can create, especially for junior developers.
 
 **Usage:**
-- `/tutor` — Activate tutor mode
-- `/tutor off` — Deactivate and return to normal mode
+- `/mate` — Activate mate mode
+- `/mate off` — Deactivate and return to normal mode
 
 **What it does:**
 - Brainstorming: Interviews you to clarify intent, teaches requirements analysis through Socratic questioning
@@ -19,14 +19,14 @@ Activates a senior engineer mentor persona that teaches while building. Designed
 
 **Installation:**
 
-Copy `commands/tutor.md` to your Claude Code commands directory:
+Copy `commands/mate.md` to your Claude Code commands directory:
 
 ```bash
 # User-level (available in all projects)
-cp commands/tutor.md ~/.claude/commands/tutor.md
+cp commands/mate.md ~/.claude/commands/mate.md
 
 # Project-level (available in a specific project)
-cp commands/tutor.md /path/to/project/.claude/commands/tutor.md
+cp commands/mate.md /path/to/project/.claude/commands/mate.md
 ```
 
 ## Philosophy
